@@ -1,0 +1,331 @@
+/* <!-- /**
+ * WEB222 – Final Assessment
+ *
+ * I declare that this assignment is my own work in accordance with
+ * Seneca Academic Policy. No part of this assignment has been
+ * copied manually or electronically from any other source
+ * (including web sites) or distributed to other students.
+ *
+ * Please update the following with your information:
+ *
+ *      Name:       ASHRIYA TULADHAR
+ *      Student ID: 168693216
+ *      Date:       2022/12/07
+ /* */ 
+
+
+
+#wrapper
+{
+ width:500px;
+ height:500px;
+ margin:0 auto;
+ background:#f7f7f7;
+ position:absolute;
+ left:50%;
+ top:50%;
+ max-width: 1100px;
+ margin-left:-250px;
+ margin-top:-250px;
+}
+
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#name{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+
+}
+
+#profession{
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+
+}
+
+#Site_Title{
+  font-family: 'Lora', serif;
+  text-align: center;
+  background-color: #9f82ad;
+}
+
+#radio_button_container li {
+    list-style-type: none; 
+
+ }
+
+ #sk1 li{
+  color:#2a1dba;
+  font-size: 50px;
+
+ }
+
+ #sk2 li{
+  color:#2ebd4d;
+  font-size: 50px;
+
+ }
+
+ #sk3 li{
+  color:#d31414;
+  font-size: 50px;
+
+ }
+
+ #sk4 li{
+  color:#f1d81b;
+  font-size: 50px;
+
+ }
+
+ #sk_list li span{
+  color:#5d5354;
+  font-size: 40px;
+
+ }
+
+
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+
+  #name,#profession,#resume{
+    text-align: center;
+  }
+
+  .Div_Title{
+    background-color: rgba(216, 203, 203, 0.925);
+    padding: 10px 10px;
+    margin-bottom: 0px;
+}
+
+
+  #Basic_Information, #Address, #radio_button_container, #Attachments{
+    background-color: rgba(228, 224, 224, 0.945);
+    margin-bottom: 10px;
+   
+}
+  
+#btton1,#btton2{
+   
+background-color: #eea20a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px; 
+
+}
+
+#education{
+  height: 15px;
+}
+
+ .titles{
+  font-family: 'Roboto Mono', monospace;
+  font-style: bold;
+  color: #bd2e3f;
+  font-size: 25px;
+  text-align: center;
+ }
+
+ .s_title{
+  font-style: bold;color: #653a44;
+ }
+
+ #name,#profession{
+  color:white;
+ }
+
+
+  .button1 {
+    background-color: #eea20a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; 
+  width: 120px;
+
+  }
+
+  .buttons1 {
+    text-align: center;
+
+  }
+
+  .divider1{
+    width:50px;
+    height:auto;
+    display:inline-block;
+}
+
+.divider2{
+  width:auto;
+  height:100px;
+  display:inline-block;
+}
+
+
+
+
+
+.first_section{
+      
+    background-color: #9f82ad;
+    background-image: url('imags/me.jpg');
+
+}
+
+#edu_title{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.lid1{
+   
+    height: 500px;
+    width: 50%;
+    background-color: #c5cfa2;
+    
+}
+
+.rid1{
+
+  height: 500px;
+  width: 50%;
+  background-color: #c7c6c5;
+  text-align: center;
+
+}
+
+.lid2{
+   
+  height: 120px;
+  width: 50%;
+  background-color: #ab8eb8;
+  text-align: center;
+  color: white;
+  
+}
+
+.rid2{
+
+height: 120px;
+  width: 50%;
+  background-color: #c7c6c5;
+  text-align: center;
+
+}
+
+.lid3{
+   
+  height: 120px;
+  width: 50%;
+  background-color: #ab8eb8;
+  text-align: center;
+  color: white;
+}
+
+.rid3{
+
+height: 120px;
+  width: 50%;
+  background-color: #c7c6c5;
+  text-align: center;
+
+}
+
+
+#honesty_title{
+  font-size:20px;
+
+}
+
+#statement,h_date{
+  font-size: 20px;
+}
+
+#contact_title{
+
+font-size: 25px;
+text-align: center;
+}
+
+#textArea11 {
+  display:none;
+}
+
+
+
+input {
+  height: 50px;
+  width: 300px;
+  border-radius: 18px;
+}
+
+input::placeholder {
+  font: 20px/3 sans-serif;
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 20px;
+  height: 20px;
+ 
+}
+
+#Contact_form{
+  background-color: #b0a0b8;
+}
+
+#contact_title,#buttonss{
+  background-color: white;
+}
+
+.school{
+  font-size: 20px;
+}
+.s_address{
+  font-size: 15px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(46, 14, 206);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#textArea1{
+  width: 600px;
+  height: 150px;
+}
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  [class*="centre"] {
+    width: 100%;
+  }
+}
+
