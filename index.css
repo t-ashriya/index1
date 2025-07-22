@@ -329,3 +329,27 @@ input[type=radio] {
   }
 }
 
+/* Other textarea styling */
+#otherTextareaContainer {
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+#otherReason {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Nunito Sans', sans-serif;
+    resize: vertical;
+}
+
+/* Error message styling */
+#errors {
+    color: #d31414;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
