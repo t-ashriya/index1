@@ -232,25 +232,27 @@
                 </div>
                 <br>
 
+            
                 <h3 class="Div_Title"> Why do you wanna contact me? <i>*</i></h3> 
                 <div id="radio_button_container">
                     <br>
-                        <li><input type="radio" id="job" name="reason" value="Job Offer" required onclick="radio('n')">
-                        <label for="job">Job Offer</label><br></li>
-
-                        <li><input type="radio" id="school" name="reason" value="School" onclick="radio('n')">
-                        <label for="school">School</label><br></li>
-
-                        <li><input type="radio" id="other" name="reason" value="Other" onclick="radio('y')">
-                        <label for="other">Other</label><br>
-
-                        <div id="textarea1">
-                        <textarea id = "1"></textarea>
+                    <li>
+                        <input type="radio" id="job" name="reason" value="Job Offer" required onchange="toggleOtherTextarea()">
+                        <label for="job">Job Offer</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="school" name="reason" value="School" onchange="toggleOtherTextarea()">
+                        <label for="school">School</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="other" name="reason" value="Other" onchange="toggleOtherTextarea()">
+                        <label for="other">Other</label>
+                        <div id="otherTextareaContainer" style="display: none;">
+                            <textarea id="otherReason" name="other_reason" placeholder="Please specify"></textarea>
                         </div>
-                    
-                        </li>
+                    </li>
                 </div>
-                    <br>
+                <br>
 
 
                 <h3 class = "Div_Title">Any Attachments you would like to send?</h3>
