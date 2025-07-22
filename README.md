@@ -1,4 +1,4 @@
-# WEB222 Final Assessment - Personal Portfolio Website
+# WEB222 Project- Personal Portfolio Website
 
 ![Portfolio Preview](imgs/ss_portfolio.png)
 
