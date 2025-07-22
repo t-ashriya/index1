@@ -1,6 +1,6 @@
 # WEB222 Final Assessment - Personal Portfolio Website
 
-![Portfolio Preview]()
+![Portfolio Preview](imgs/portfolio_ss.png)
 
 ## 📝 Project Description
 A responsive personal portfolio website created as the final assessment for WEB222 course at Seneca College. Showcases professional information, education background, skills, and includes an interactive contact form.
